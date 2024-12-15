@@ -1,0 +1,21 @@
+# prerequisites and usage
+
+> Java Development Kit (JDK) 8 or higher.
+> wordlist.txt file containing valid 5-letter words, one per line.
+
+# Usage
+1. Launch the game.
+2. Select "Start Self-Solver" to play.
+3. Input a 5-letter word as your guess.
+4. Observe the feedback and use the suggestions for your next guess.
+5. Continue until you guess the hidden word or exhaust all 6 attempts.
+
+# File Structure
+WordleGame.java: Contains the main application code.
+wordlist.txt: The list of valid words for the game.
+
+# How It Works
+> Word Selection: A hidden word is randomly selected from wordlist.txt.
+> Feedback System: After each guess, the game provides feedback based on the hidden word.
+> Trie Data Structure: Used to store and filter words efficiently.
+
