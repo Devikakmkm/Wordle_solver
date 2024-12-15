@@ -6,7 +6,9 @@ This project is a GUI-based Wordle game that allows users to play a self-solving
 > A 6x5 grid where users can make guesses.
 > Colored feedback for each guess:
   >> Green: Correct letter in the correct position.
+
   >> Yellow: Correct letter in the wrong position.
+
   >> Grey: Incorrect letter.
 > Suggestions for top 6 possible words after each guess.
 > User-friendly error messages for invalid input.
